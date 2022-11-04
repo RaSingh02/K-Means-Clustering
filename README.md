@@ -1,1 +1,3 @@
-# K-Means-Clustering
+# K-Means Clustering
+
+Was tasked to implement a K-means clustering algorithm using Python. Was not allowed to use packages for the K-means function. The code does random initialization of the cluster centers. Then it uses the Euclidean distance measure to assign points to their nearest clusters. Using these points, the function will recalculate the centers. Finally, it will repeat the recalculation and point assigning until a stopping criterion is met. In order to not define the number of clusters, the Elbow method was used to automatically find the best value for k (number of clusters). The included report (in .pdf format) explains what the Elbow method is and how the k value was selected.
